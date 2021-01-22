@@ -1,0 +1,202 @@
+html body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: chartreuse;
+    background: #192226;
+    color: white;
+}
+
+
+#title {
+    font-size: 60px;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#f1 {
+    max-width: 450px;
+}
+
+#f11 {
+    color: tomato;
+    font-weight: 400;
+}
+
+#f2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.form{
+    background: white;
+    border-radius: 7px;
+    width: 95%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 4px;
+    /* display: inline; */
+    
+}
+
+.form input{
+    width: 300px;
+    float: left;
+    border: none;
+    align-items: center;
+    margin-top: 5px;
+}
+
+form input:focus{
+    outline: none;
+}
+
+.form button{
+    background-color: rgb(102, 9, 209);
+    width: 80px;
+    color: white;
+    margin-left: 40px;
+}
+
+#f2 span {
+    color: rgb(0, 98, 226);
+
+}
+
+#f2 p{
+    font-size: 20px;
+}
+
+#f3 {
+    text-align: right;
+}
+
+#f3 span{
+    color: tomato;
+}
+
+.row-content{
+    max-width: 420px;
+    font-size: 20px;
+}
+
+#f4{
+    margin: 50px auto;
+    text-align: center;
+}
+
+#f5{
+    background: tomato;
+    color: black;
+    max-width: 350px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+#f6 {
+    margin: 100px;
+}
+
+
+
+#q1 {
+    display: block;
+    color: red;
+}
+
+#q2 {
+    display: none;
+    font-size: 16px;
+    font-weight: 200;
+    color: red;
+}
+
+#q3 {
+    display: block;
+}
+
+#q4 {
+    display: none;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+#q5 {
+    display: block;
+    max-width: 400px;
+}
+
+
+#q6 {
+    display: none;
+    margin-left: 35px;
+
+}
+
+#q7 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+#q8 {
+    margin-right: 0;
+    display: none;
+    text-align: right;
+    margin-bottom: 20px;
+}
+    
+#q9 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+#q10 {
+    display: none;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
+#q11 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+#q12 {
+    display: none;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
+@media all and (min-width: 992px){
+    #f1{
+        border-left: 1px ridge white;
+    }
+    
+    #q12 {display: block;}
+    #q11 {display: none;}
+    #q10 {display: block;}
+    #q9 {display: none;}
+    #q8 {display: block;}
+    #q7 {display: none;}
+    #q6 {display: block;}
+    #q5 {display: none;}
+    #q4 {display: block;}
+    #q3 {display: none;}
+    #q2 {display: block;}
+    #q1 {display: none;}
+}
+
+
+
+
+
+
