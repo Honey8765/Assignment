@@ -19,16 +19,22 @@ html body{
     max-width: 450px;
 }
 
-#f11 {
-    color: tomato;
-    font-weight: 400;
-}
-
 #f2 {
     margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
 }
+
+#f3 {
+    text-align: right;
+}
+
+#f11 {
+    color: tomato;
+    font-weight: 400;
+}
+
+
 
 .form{
     background: white;
@@ -37,8 +43,8 @@ html body{
     max-width: 450px;
     margin: 20px auto;
     padding: 4px;
-    /* display: inline; */
-    
+    height: 44px;
+    /* display: inline; */   
 }
 
 .form input{
@@ -47,17 +53,31 @@ html body{
     border: none;
     align-items: center;
     margin-top: 5px;
+    text-align: center;
 }
 
 form input:focus{
     outline: none;
 }
 
-.form button{
+.form a{
     background-color: rgb(102, 9, 209);
     width: 80px;
     color: white;
     margin-left: 40px;
+    display: none;
+    float: right;
+}
+
+.form:hover input{
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+
+.form:hover .btn {
+    display: block;
 }
 
 #f2 span {
@@ -69,9 +89,8 @@ form input:focus{
     font-size: 20px;
 }
 
-#f3 {
-    text-align: right;
-}
+
+
 
 #f3 span{
     color: tomato;
@@ -97,9 +116,18 @@ form input:focus{
 }
 
 #f6 {
-    margin: 100px;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
+#f7{
+    text-align: center;  
+    margin-bottom: 90px;
+}
+
+#f7 a{
+    margin-left:40px ;
+}
 
 
 #q1 {
@@ -175,10 +203,131 @@ form input:focus{
     margin-bottom: 20px;
 }
 
+.carausel-item img{
+    width: 10px;
+    height: 100px;
+}
 
-@media all and (min-width: 992px){
+#c1{
+    background: white;
+    color: black;
+    max-width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#c1 h3{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#c1 p{
+    font-size: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+#c2{
+    background: white;
+    color: black;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+#c2 h3{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#c2 p{
+    font-size: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+#c3{
+    background: white;
+    color: black;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#c3 h3{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#c3 p{
+    font-size: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+#zxcv {
+    margin-bottom: 40px;
+}
+
+/* .carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    top: calc(50% - 25px);
+}
+
+.carousel-control-prev{
+    left: 5%;
+}
+.carousel-control-next{
+
+} */
+
+
+@media all and (min-width: 1208px){
+
+    #title{
+        text-align: left;
+    }
     #f1{
         border-left: 1px ridge white;
+    }
+
+    #f3{
+        padding-left: 130px;
+    }
+
+    #f6{
+        text-align: right;
+    }
+
+    #f7{
+        text-align: left;
+        margin-top: 10px;
+        
+    }
+
+    #zxcv{
+        max-width: 300px;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    #zxcv h1{
+        font-size: 70px;
+        font-weight: 600;
     }
     
     #q12 {display: block;}
